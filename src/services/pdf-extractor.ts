@@ -3,7 +3,6 @@
  * Extracts text content from PDF files using pdf-parse
  */
 
-import pdfParse from 'pdf-parse';
 import type { ZoteroClient } from './zotero-client.js';
 
 export interface ExtractedPdfText {
@@ -82,6 +81,9 @@ export class PDFExtractor {
     buffer: Buffer,
     pages?: { start?: number; end?: number }
   ): Promise<ExtractedPdfText> {
+    // Dynamic import to avoid ESM issues
+    const pdfParse = (await import('pdf-parse')).default;
+
     const options: any = {};
 
     if (pages) {

@@ -3,7 +3,9 @@
  * Wrapper around zotero-api-client with caching and rate limiting
  */
 
-import api from 'zotero-api-client';
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
+const api = require('zotero-api-client').default;
 import type { ZoteroConfig } from '../types/config.js';
 import type {
   ZoteroItem,
@@ -451,7 +453,39 @@ export class ZoteroClient {
           linkwrap: format === 'html' ? 1 : 0,
         } as any);
 
-      return response.getData() as string;
+      // When format=bib is used, zotero-api-client returns a RawApiResponse wrapper
+      // The actual fetch Response is nested at response.response
+      if (response && typeof response === 'object' && 'response' in response) {
+        const fetchResponse = (response as any).response;
+        if (fetchResponse && typeof fetchResponse.text === 'function') {
+          return await fetchResponse.text();
+        }
+      }
+
+      // Fallback: check if response itself is a fetch Response
+      if (response && typeof response === 'object' && 'ok' in response && typeof (response as any).text === 'function') {
+        return await (response as any).text();
+      }
+
+      // Try getData method if available (might return another wrapper)
+      if (response && typeof (response as any).getData === 'function') {
+        const data = (response as any).getData();
+        // If getData returns a Response object, extract text from it
+        if (data && typeof data === 'object' && typeof data.text === 'function') {
+          return await data.text();
+        }
+        // Otherwise return as-is if it's a string
+        if (typeof data === 'string') {
+          return data;
+        }
+      }
+
+      // Last resort: return as-is if it's already a string
+      if (typeof response === 'string') {
+        return response;
+      }
+
+      throw new Error('Unexpected response format from citation API');
     });
 
     if (this.config.cacheEnabled) {

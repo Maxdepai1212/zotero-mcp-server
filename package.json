@@ -11,7 +11,8 @@
     "build": "tsc",
     "dev": "tsx watch src/index.ts",
     "start": "node dist/index.js",
-    "test": "echo \"Error: no test specified\" && exit 0",
+    "test": "tsx tests/integration.test.ts",
+    "test:verbose": "tsx tests/integration.test.ts --verbose",
     "lint": "echo \"Linting skipped\"",
     "format": "echo \"Formatting skipped\""
   },
