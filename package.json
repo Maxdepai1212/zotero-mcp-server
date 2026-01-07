@@ -5,7 +5,7 @@
   "type": "module",
   "main": "dist/index.js",
   "bin": {
-    "zotero-mcp": "./dist/index.js"
+    "zotero-mcp": "dist/index.js"
   },
   "files": [
     "dist",
